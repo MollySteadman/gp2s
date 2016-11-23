@@ -20,13 +20,13 @@ For further details, consult [Stegle et al., 2010][stegle2010].
 
 ## Test Run
 
-If you want to get a feel for how GP2S operates without using your dataset, a small-scale demonstration dataset is provided at `ktpolanski/gp2s_testdata/input.csv` under Community Data. You can leave all the parameters as defaults, and check the time-local checkbox as appropriate if you want to test out the timing of first differential expression variant of the analysis.
+If you want to get a feel for how GP2S operates without using your dataset, a small-scale demonstration dataset is provided at `cyverseuk/gp2s_testdata/input.csv` under Community Data. You can leave all the parameters as defaults, and check the time-local checkbox as appropriate if you want to test out the timing of first differential expression variant of the analysis.
 
 ## General Input
 
 ### Expression CSV
 
-**Mandatory input.** The file containing your expression data that's to be mined for differential expression information. Gene names in the first column, first row for condition information (for example, control/treated), second row for time point information. Each condition needs to have the same time points, and each time point needs to have the same number of replicates across both conditions and all other time points. Refer to the demo file `ktpolanski/gp2s_testdata/input.csv` under Community Data for formatting if needed.
+**Mandatory input.** The file containing your expression data that's to be mined for differential expression information. Gene names in the first column, first row for condition information (for example, control/treated), second row for time point information. Each condition needs to have the same time points, and each time point needs to have the same number of replicates across both conditions and all other time points. Refer to the demo file `cyverseuk/gp2s_testdata/input.csv` under Community Data for formatting if needed.
 
 ### Gaussian Process Hyperparameters
 
